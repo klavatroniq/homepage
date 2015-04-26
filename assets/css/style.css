@@ -126,7 +126,10 @@ a:focus {
 }
 .page { overflow: hidden }
 .page .content { padding: 60px 0 }
-.page .content.cover { padding: 240px 0 }
+.page .content.cover {
+    margin-top : 200px;
+    padding: 500px 0 
+}
 .page .heading h2 {
   margin-top: 0;
   margin-bottom: 20px;
@@ -310,6 +313,8 @@ a:focus {
   margin-bottom: 10px;
   color: #00aced;
 }
+
+
 #contact {
     margin-top : 200px;
   background: url(../img/ariana_piano_01.jpeg);
@@ -370,7 +375,7 @@ a:focus {
 .shadowed {
     /*text-shadow: 2px 2px #000000;*/
     background:rgba(0,0,0,0.3);
-    padding: 0 30px 
+    padding: 0 20px 
 }
 
 span .c6 {
@@ -382,9 +387,14 @@ span .c6 {
 }
 
 .cropcontainer img{
-    width: %100;
+    left: 50%;
     height: %100;
-    margin: 2%;  
+    margin-top: 20px ; 
+    margin-bottom: %10 ; 
+    margin-left: auto; 
+    margin-right: auto; 
+
+    display:block
 }
 
 .c5 {
@@ -405,4 +415,13 @@ span .c6 {
 
 .info {
     padding : 10px;
+}
+
+
+.cropcontainer {
+    margin-top : 100px;
+    background: url(../img/ariana_bw_top.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
 }
