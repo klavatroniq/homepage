@@ -312,7 +312,7 @@ a:focus {
 }
 #contact {
     margin-top : 200px;
-  background: url(../img/e15e1e_4240a811f41a4ff38c9a1e3df4f3ab1f.jpg_512.jpeg);
+  background: url(../img/ariana_piano_01.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -378,9 +378,6 @@ span .c6 {
 }
 
 .cropcontainer {
-/*    width: %40;
-    height: 500px;
-*/
     overflow: hidden; 
 }
 
@@ -388,11 +385,6 @@ span .c6 {
     width: %100;
     height: %100;
     margin: 2%;  
-/*
-
-    top: 50%;   
-    transform: translate(0, -30%) 
-*/
 }
 
 .c5 {
@@ -402,3 +394,15 @@ span .c6 {
 
 }
 
+.concert {
+    margin: 10%;  
+}
+
+.more {
+    text-align: center;
+    font-size: 46px;   
+}
+
+.info {
+    padding : 10px;
+}
