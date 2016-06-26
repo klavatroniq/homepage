@@ -141,21 +141,28 @@ a:focus {
   background-color: #71be3c;
 }
 .page .heading p { margin: 20px auto 0 }
+
 #home {
   padding: 0;
   color: #fff;
-  background-image: url(../img/ariana_original_1920x1280.jpeg);
+  background-image: url(../img/ariana_original_800.jpeg);
+  background-position: top center;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height : 450px;
+  height : 600px;
 }
+
 #home h1 {
   margin-top: 0;
   margin-bottom: 20px;
   line-height: 48px;
   font-size: 32px;
 }
+
+#main_title {
+    margin-top: 120px;
+  text-align: left;
+}
+
 #home a { margin: 0 5px }
 #home h3 {
   margin-top: 20px;
